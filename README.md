@@ -1,5 +1,6 @@
 # business-processes
 A simple software made for organizing (create, review, update) possible processes that a businees need.
+Made with C# for back-end and vanilla HTML, CSS and javascript for the front-end.
 
 To start the back-end (a console app for the moment), you need to run the dotnet project.
 Inside the process-back directory, run 'dotnet build' and then 'dotnet run' from the terminal.
