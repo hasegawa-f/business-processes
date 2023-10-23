@@ -1,0 +1,103 @@
+[
+  {
+    "Id": 1,
+    "Name": "Logistic Inspection",
+    "Area": "Logistics",
+    "Description": "Should inspect all logistics business and logs.",
+    "Subprocesses": [
+      {
+        "Id": 1,
+        "Name": "Transport Inspection",
+        "Area": "Logistics",
+        "Description": "Should inspect all transport logs and travel plans.",
+        "Subprocesses": []
+      },
+      {
+        "Id": 2,
+        "Name": "Transport Revision",
+        "Area": "Mechanics",
+        "Description": "Should see if every vehicle is in travel condition",
+        "Subprocesses": []
+      },
+      {
+        "Id": 3,
+        "Name": "Logistic Financial Review",
+        "Area": "Finances",
+        "Description": "Should see if everything in the logistics is according to finances pre stabilished statements.",
+        "Subprocesses": []
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Job Assessment",
+    "Area": "Human Resources",
+    "Description": "Should see if every open job is according to the company rules.",
+    "Subprocesses": [
+      {
+        "Id": 1,
+        "Name": "Interview Revision",
+        "Area": "Human Resources",
+        "Description": "Should see if the interviews are going as expected.",
+        "Subprocesses": []
+      },
+      {
+        "Id": 2,
+        "Name": "Seniority Review",
+        "Area": "Human Resources",
+        "Description": "Check if all staff has the seniority according to their skills.",
+        "Subprocesses": []
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Tax Period Review",
+    "Area": "Finance",
+    "Description": "Review and secure all income and spendings are going accordling to have a healthy financial taz period.",
+    "Subprocesses": []
+  },
+  {
+    "Id": 4,
+    "Name": "Building Maintenance",
+    "Area": "Infrasctructure",
+    "Description": "Assure a secure, clean and healthy physical enviroment for all staff",
+    "Subprocesses": []
+  },
+  {
+    "Id": 5,
+    "Name": "Advertisiment",
+    "Area": "Marketing / Design / Creativity",
+    "Description": "Plan and execute advertisiment for possible client awareness.",
+    "Subprocesses": []
+  },
+  {
+    "Id": 6,
+    "Name": "Security measures",
+    "Area": "Infrasctructure",
+    "Description": "Assure that all staff and the company itself has a effective and functional security system.",
+    "Subprocesses": []
+  },
+  {
+    "Id": 8,
+    "Name": "Planning",
+    "Area": "IT",
+    "Description": "Simple planning according to necessity",
+    "Subprocesses": [
+      {
+        "Id": 1,
+        "Name": "Resources Planning",
+        "Area": "IT / Finances",
+        "Description": "Allocate all necessary personel and necessary resources (such as notebooks and monitors) so that the development can follow without issues.",
+        "Subprocesses": []
+      },
+      {
+        "Id": 2,
+        "Name": "Squad Planning",
+        "Area": "IT / Humn Resources",
+        "Description": "Plan and allocate employees accordingly, so that squads have the necessary human resources to procees smoothly",
+        "Subprocesses": []
+      }
+    ]
+  }
+]
